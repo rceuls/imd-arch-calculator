@@ -3,6 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <!-- needed for nullable reference types https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references -->
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>
