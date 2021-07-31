@@ -7,7 +7,10 @@ namespace Calculator.Program
     {
         static void Main(string[] args)
         {
-            var inputData = "/ 12 13 15";
+            // var inputData = "- 1 2 3"
+            // var inputData = "/ 1 2 3"
+            // var inputData = "* 1 2 3"
+            var inputData = "* 1 2 3 4";
             // if you want to make it interactive comment the previous line and uncomment the next three
             // Console.WriteLine("Input?");
             // var inputData = Console.ReadLine();
