@@ -18,7 +18,6 @@ namespace Calculator.Tests
                     // assert handle it. (https://ardalis.com/testing-exceptions-with-xunit-and-actions/)
                     Assert.Throws<Exception>(() => new CalculatorArguments(data, op));
                 }
-
             }
         }
     }

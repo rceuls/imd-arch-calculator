@@ -4,13 +4,8 @@ namespace Calculator.Program
 {
 
     // Notice that this file is the only part of the program that contains I/O.
-    class Program
+    public class Program
     {
-        // Some basic truths about this program
-        // - an error has two return types, always: either the expected result or an error.
-        // - those two results are wrapped in a tuple (https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples) 
-        //   with the error on the left (first element) and the right the happy result (second element). 
-        // - This principle is called "right is right" and also occurs in functional programming.
         static void Main(string[] args)
         {
             Console.WriteLine("Input?");
